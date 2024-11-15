@@ -23,4 +23,8 @@ git brach
 git branch -m master main (rename a branch)
 git branch my-new-branch or, git switch -c my-new-branch or, git chechout -b my-new-brach
 git find | grep refs
+git log --decorate=full or, git log --oneline (show branch name)
+git log --decorate=no or, git log --oneline | tee out (don't show branch name)
+git log --graph
+
 
