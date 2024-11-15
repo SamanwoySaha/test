@@ -27,5 +27,5 @@ git log --decorate=full or, git log --oneline (show branch name)
 git log --decorate=no or, git log --oneline | tee out (don't show branch name)
 git log --graph
 git log --graph --all --oneline
-
+git log --oneline --decorate --graph --parents
 
