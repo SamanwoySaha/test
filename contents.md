@@ -28,4 +28,7 @@ git log --decorate=no or, git log --oneline | tee out (don't show branch name)
 git log --graph
 git log --graph --all --oneline
 git log --oneline --decorate --graph --parents
+git merge new-brach (fast-forward)
+git merge new-brach -m "branch merged"
+
 
